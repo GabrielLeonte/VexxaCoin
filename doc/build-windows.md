@@ -112,6 +112,7 @@ Once the source code is ready the build steps are below.
 
     PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g') # strip out problematic Windows %PATH% imported var
     cd depends
+    chmod +x *
     make HOST=x86_64-w64-mingw32
     cd ..
     ./autogen.sh # not required when building from tarball
@@ -142,6 +143,7 @@ Then build using:
 
     PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g') # strip out problematic Windows %PATH% imported var
     cd depends
+    chmod +x *
     make HOST=i686-w64-mingw32
     cd ..
     ./autogen.sh # not required when building from tarball

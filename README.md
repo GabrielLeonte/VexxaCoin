@@ -1,9 +1,8 @@
 Vexxacoin Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/vexxacoin-project/vexxacoin.svg?branch=master)](https://travis-ci.org/vexxacoin-project/vexxacoin)
 
-https://vexxacoin.org
+https://vexxacoin.org(disable)
 
 What is Vexxacoin?
 ----------------
